@@ -1,0 +1,133 @@
+final List<Map<String, String>> data_Bills = [
+  // Delivered Bills (5)
+  {
+    'billNo':
+        '12/2123 | ${DateTime.now().toLocal().day}.${DateTime.now().toLocal().month}.${DateTime.now().toLocal().year}',
+    'name': 'Mr. Madhavan',
+    'address': '1/345, MG Road, Thrissur',
+    'items': '3 items',
+    'amount': 'Rs: 5300',
+    'rating': '4 stars',
+    'status': 'Delivered',
+    'phone': '9946017660',
+    'numItems': '3',
+    'amtReceived': '5309.00',
+    'mode': 'C:309 and B:5000',
+  },
+  {
+    'billNo':
+        '13/2124 | ${DateTime.now().toLocal().day}.${DateTime.now().toLocal().month}.${DateTime.now().toLocal().year}',
+    'name': 'Mr. Raj',
+    'address': '2/456, Main Road, Cochin',
+    'items': '4 items',
+    'amount': 'Rs: 6800',
+    'rating': '4.5 stars',
+    'status': 'Delivered',
+    'phone': '9946017661',
+    'numItems': '4',
+    'amtReceived': '6809',
+    'mode': 'C:5000 and B:1809',
+  },
+
+  // Pending Bills (5)
+  {
+    'billNo':
+        '14/2125 | ${DateTime.now().toLocal().day}.${DateTime.now().toLocal().month}.${DateTime.now().toLocal().year}',
+    'name': 'Ms. Priya Sharma',
+    'address': '3/789, Park Street, Bangalore',
+    'items': '2 items',
+    'amount': 'Rs: 4500',
+    'rating': '4 stars',
+    'status': 'Pending',
+    'phone': '9876543210',
+    'numItems': '2',
+    'amtReceived': '1829',
+    'mode': 'Processing',
+  },
+  {
+    'billNo':
+        '15/2126 | ${DateTime.now().toLocal().day}.${DateTime.now().toLocal().month}.${DateTime.now().toLocal().year}',
+    'name': 'Mr. Vikram Patel',
+    'address': '4/567, Ring Road, Mumbai',
+    'items': '1 item',
+    'amount': 'Rs: 3200',
+    'rating': '3.5 stars',
+    'status': 'Pending',
+    'phone': '8765432109',
+    'numItems': '1',
+    'amtReceived': '1829',
+    'mode': 'Processing',
+  },
+  {
+    'billNo':
+        '16/2127 | ${DateTime.now().toLocal().day}.${DateTime.now().toLocal().month}.${DateTime.now().toLocal().year}',
+    'name': 'Mrs. Anjali Reddy',
+    'address': '5/234, Hill Road, Hyderabad',
+    'items': '3 items',
+    'amount': 'Rs: 5700',
+    'rating': '4.5 stars',
+    'status': 'Pending',
+    'phone': '7654321098',
+    'numItems': '3',
+    'amtReceived': '1829',
+    'mode': 'Processing',
+  },
+  {
+    'billNo':
+        '16/2127 | ${DateTime.now().toLocal().day}.${DateTime.now().toLocal().month}.${DateTime.now().toLocal().year}',
+    'name': 'Mrs. Anja Reddy',
+    'address': '5/234, Hill Road, Hyderabad',
+    'items': '3 items',
+    'amount': 'Rs: 5700',
+    'rating': '4.5 stars',
+    'status': 'Returned',
+    'phone': '7654321098',
+    'numItems': '3',
+    'amtReceived': '129',
+    'mode': 'Processing',
+  },
+  {
+    'billNo':
+        '17/2128 | ${DateTime.now().toLocal().day}.${DateTime.now().toLocal().month}.${DateTime.now().toLocal().year}',
+    'name': 'Mr. Rahul Khanna',
+    'address': '6/456, Beach Road, Chennai',
+    'items': '2 items',
+    'amount': 'Rs: 2900',
+    'rating': '3 stars',
+    'status': 'Pending',
+    'phone': '6543210987',
+    'numItems': '2',
+    'amtReceived': '1829',
+    'mode': 'Processing',
+  },
+  {
+    'billNo':
+        '18/2129 | ${DateTime.now().toLocal().day}.${DateTime.now().toLocal().month}.${DateTime.now().toLocal().year}',
+    'name': 'Ms. Deepa Menon',
+    'address': '7/789, Garden Lane, Kerala',
+    'items': '1 item',
+    'amount': 'Rs: 4100',
+    'rating': '4 stars',
+    'status': 'Pending',
+    'phone': '5432109876',
+    'numItems': '1',
+    'amtReceived': '1890',
+    'mode': 'Processing',
+  },
+// partially delivered data
+
+  {
+    'billNo':
+        '19/2130 | ${DateTime.now().toLocal().day}.${DateTime.now().toLocal().month}.${DateTime.now().toLocal().year}',
+    'name': 'Ms. Kavya Nair',
+    'address': '8/890, Sunset Avenue, Kochi',
+    'items': '3 items',
+    'amount': 'Rs: 5000',
+    'rating': '4 stars',
+    'status': 'Partially Delivered',
+    'phone': '9871234567',
+    'numItems': '2',
+    'amtReceived': '2009',
+    'mode': 'C:2000 and B:9',
+  },
+];
