@@ -43,7 +43,7 @@ class SettingsScreen extends StatelessWidget {
       builder: (BuildContext context) {
         return AlertDialog(
           title: Text(
-            'Confirm Logout !!',
+            'Confirm Logout',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
           ),
           content: Text(
